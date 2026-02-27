@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Crypto Castle</title>
+
+    <meta property="og:title" content="The Crypto Castle">
+    <meta property="og:description" content="A web series by Viv Ford. Launching March 2026.">
+    <meta property="og:image" content="https://cryptocastle.show/images/thumbnail.png">
+    <meta property="og:url" content="https://cryptocastle.show">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Crypto Castle">
+    <meta name="twitter:description" content="A web series by Viv Ford. Launching March 2026.">
+    <meta name="twitter:image" content="https://cryptocastle.show/images/thumbnail.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&display=swap" rel="stylesheet">
@@ -292,6 +302,52 @@
             border-color: #d4af37;
         }
 
+        .sponsors-section {
+            padding: 4rem 2rem;
+            background: #0a0a0a;
+        }
+
+        .sponsors-grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            max-width: 800px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .sponsors-grid a {
+            display: block;
+            transition: opacity 0.3s;
+        }
+
+        .sponsors-grid a:hover {
+            opacity: 0.8;
+        }
+
+        .sponsors-grid img {
+            max-width: 250px;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .powered-by {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.875rem;
+            font-weight: 400;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #888;
+            text-align: center;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .sponsors-grid .dcp-logo {
+            clip-path: circle(46%);
+        }
+
         footer {
             padding: 4rem 2rem 3rem;
             text-align: center;
@@ -361,7 +417,8 @@
         <p class="subtitle">A web series by Viv Ford</p>
         <p class="launch">Launching March 2026</p>
         <div class="links">
-            <a href="https://www.instagram.com/thecryptocastleshow" target="_blank" rel="noopener">Follow Us on Instagram</a>
+            <a href="https://www.instagram.com/thecryptocastleshow" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.youtube.com/@TheCryptoCastleShow" target="_blank" rel="noopener">YouTube</a>
         </div>
     </div>
 
@@ -411,23 +468,30 @@
         </div>
     </section>
 
-    <!--
-    <section class="gallery-section">
-        <div class="gallery-grid">
-            <img src="https://images.squarespace-cdn.com/content/v1/65f473626b7f9f0de25002ce/7ebd9464-9202-4b15-bff9-1abe8c123ae5/Screen+Shot+2025-01-29+at+8.47.26+PM.png" alt="Scene 1">
-            <img src="https://images.squarespace-cdn.com/content/v1/65f473626b7f9f0de25002ce/0cbc864e-f4d2-4940-8503-6967a7ba0029/Screen+Shot+2025-01-29+at+8.47.44+PM.png" alt="Scene 2">
-            <img src="https://images.squarespace-cdn.com/content/v1/65f473626b7f9f0de25002ce/3b08fd92-9fbc-4534-9a8a-4d9fa1585429/Screen+Shot+2025-01-29+at+8.48.00+PM.png" alt="Scene 3">
-            <img src="https://images.squarespace-cdn.com/content/v1/65f473626b7f9f0de25002ce/d6829bf7-3888-4269-8c6b-a3f3da6369b1/Screen+Shot+2025-01-29+at+8.48.19+PM.png" alt="Scene 4">
-            <img src="https://images.squarespace-cdn.com/content/v1/65f473626b7f9f0de25002ce/543c9437-bbb5-405a-8aaf-b7165db03514/Screen+Shot+2025-01-29+at+8.56.39+PM.png" alt="Scene 5">
+    <section class="sponsors-section">
+        <h2 class="section-title">Sponsors</h2>
+        <div class="sponsors-grid">
+            <a href="https://decentralized.pictures" target="_blank" rel="noopener">
+                <img src="images/dcp.webp" alt="Decentralized Pictures" class="dcp-logo">
+            </a>
+            <a href="https://www.zama.org" target="_blank" rel="noopener">
+                <img src="images/zama.webp" alt="Zama">
+            </a>
+        </div>
+        <h3 class="powered-by">Built on</h3>
+        <div class="sponsors-grid">
+            <a href="https://www.base.org" target="_blank" rel="noopener">
+                <img src="images/base.png" alt="Base">
+            </a>
         </div>
     </section>
-    -->
 
     <footer>
         <div class="footer-content">
             <div class="footer-logo">The Crypto Castle</div>
             <div class="footer-links">
                 <a href="https://www.instagram.com/thecryptocastleshow" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.youtube.com/@TheCryptoCastleShow" target="_blank" rel="noopener">YouTube</a>
                 <a href="https://www.vivford.com" target="_blank" rel="noopener">vivford.com</a>
             </div>
             <div class="footer-copy">&copy; 2026 Viv Ford. All rights reserved.</div>
