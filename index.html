@@ -183,17 +183,18 @@
             overflow: hidden;
         }
 
-        .trailer-container video {
-            height: 85vh;
-            width: auto;
-            max-width: 100%;
+        .trailer-container iframe {
+            width: 80vw;
+            height: 45vw;
+            max-width: 960px;
+            max-height: 540px;
             display: block;
         }
 
         @media (max-width: 768px) {
-            .trailer-container video {
-                height: auto;
+            .trailer-container iframe {
                 width: 100%;
+                height: 56.25vw;
             }
         }
 
@@ -417,7 +418,6 @@
         <h1>The Crypto<br>Castle</h1>
         <div class="divider"></div>
         <p class="subtitle">A web series by Viv Ford</p>
-        <p class="launch">Launching March 2026</p>
         <div class="links">
             <a href="https://www.instagram.com/thecryptocastleshow" target="_blank" rel="noopener">Follow Us on Instagram</a>
         </div>
@@ -427,12 +427,9 @@
     </div>
 
     <section class="trailer-section">
-        <h2 class="section-title">Watch the Trailer</h2>
+        <h2 class="section-title">Watch the Series</h2>
         <div class="trailer-container">
-            <video controls>
-                <source src="trailer.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PLTdU111IezuiVCYki3MNmLIOSZ_J1xsP4" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
 
